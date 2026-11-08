@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pedra Papel Tesoura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Pedra Papel Tesoura</h1>
+    <br>
+    <div id="choices">
+    <label class="choicestxt">Pedra</label>
+    <label class="choicestxt">Papel</label>
+    <label class="choicestxt">Tesoura</label>
+    <br>
+    <input class="choices" id="pedra" type="radio" name="pedra">
+    <input class="choices" id="papel" type="radio" name="pedra">
+    <input class="choices" id="tesoura" type="radio" name="pedra">
+    <br>
+    <button id="validate" onclick="validate()">VALIDAR</button>
+    <br>
+    </div>
+    <h1 id="result"></h1>
+    <br>
+    <img id="happy" class="faces" src="feliz.png" style="visibility:hidden">
+    <img id="idk" class="faces" src="sla.png" style="visibility:hidden">
+    <img id="sad" class="faces" src="triste.png" style="visibility:hidden">
+    <br>
+    <script src="script.js"></script>
+</body>
+</html>

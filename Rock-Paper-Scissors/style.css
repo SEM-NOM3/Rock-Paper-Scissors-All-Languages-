@@ -1,0 +1,95 @@
+body{
+  padding: 25px;
+  background-color: rgb(175, 200, 221);
+}
+h1 {
+	color: #ffffff;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+#choices{
+    color: #ffffff;
+    border-style: solid;
+    border-color: #999999;
+    border-radius: 25px;
+    background-color: rgb(185, 198, 211);
+    padding: 25px;
+    align-items: center;
+    display: inline-block;
+    position: center;
+}
+
+label{
+    margin: 30px;
+    font-family: 'Brush Script MT', cursive;
+    text-shadow: 2px 2px 4px #353535;
+}
+
+button{
+padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: rgb(175, 200, 221);;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-left: 80px;
+}
+
+input {
+margin: 43px;
+
+  appearance: none;
+
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+
+  border: 2px solid #999999;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+}
+
+input:checked {
+  border: 12px solid rgb(146, 170, 190);
+}
+
+.faces{
+    width: 180px;
+    margin-left: 185px;
+    
+}
+#happy{
+    z-index: 1;
+    position: absolute;
+}
+#idk{
+    z-index: 2;
+    position: absolute;
+}
+#sad{
+    z-index: 3;
+    position: absolute;
+}
+
+#conf{
+    z-index: 4;
+    position: absolute;
+}
+
+button:hover {background-color: rgb(145, 174, 197)}
+
+button:active {
+  background-color: rgb(145, 174, 197);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
